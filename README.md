@@ -4,8 +4,9 @@ Written for 10lift company
 
 ---
 ## Requirements
+- #### Knex
+    [Official Knex Website](https://knexjs.org/)
 
-For development, you will only need Node.js and a node global package, Yarn, installed in your environement.
 
 ### Node
 - #### Node installation on Windows
@@ -26,12 +27,12 @@ Also, be sure to have `git` available in your PATH, `npm` might need it (You can
 If the installation was successful, you should be able to run the following command.
 
     $ node --version
-    v8.11.3
+    v14.16.1
 
     $ npm --version
-    6.1.0
+    6.14.12
 
-If you need to update `npm`, you can make it using `npm`! Cool right? After running the following command, just open again the command line and be happy.
+If you need to update `npm`, you can make it using `npm`
 
     $ npm install npm -g
 

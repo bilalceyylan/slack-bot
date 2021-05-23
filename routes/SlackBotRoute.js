@@ -19,7 +19,6 @@ router.post('/running', async function(req, res, next) {
 
 router.post('/leaderboard', async function(req, res, next) {
     try { 
-
         // Get data from service
         res.json(await SlackBotService.leaderBoard());
     } catch (err) {
